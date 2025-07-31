@@ -15,7 +15,7 @@ A modern Windows Forms application built in C#. This project serves as a robust,
 
 ## Overview
 
-**Al_xikma_winforms_app** is a C# Windows Forms application focused on delivering a seamless user experience for desktop users. The main objective of this project is to demonstrate best practices in WinForms development, code organization, and maintainability.
+**Al_xikma Management system** is a C# Windows Forms application focused on delivering a seamless user experience for desktop users. The main objective of this project is to demonstrate best practices in WinForms development, code organization, and maintainability.
 
 ## Features
 
@@ -23,9 +23,6 @@ A modern Windows Forms application built in C#. This project serves as a robust,
 - Responsive design for various screen sizes
 - Modular codebase for easy maintenance and scalability
 - Error handling and input validation
-- [Add specific features relevant to your app here, e.g., data export/import, reporting, etc.]
-
-## Screenshots
 
 <!-- Add screenshots of the app here -->
 <!-- 
@@ -51,8 +48,6 @@ A modern Windows Forms application built in C#. This project serves as a robust,
 ## Usage
 
 - Launch the application.
-- [Briefly describe how to use the main features.]
-- For detailed instructions, refer to the [Documentation](docs/).
 
 ## Contributing
 
@@ -77,4 +72,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-_Thank you for checking out Al_xikma_winforms_app! If you find this project useful, please consider starring the repository._
+_Thank you for checking out Al_xikma Management system! If you find this project useful, please consider starring the repository._
