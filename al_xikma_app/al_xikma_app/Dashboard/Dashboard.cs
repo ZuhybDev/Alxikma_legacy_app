@@ -79,24 +79,6 @@ namespace al_xikma_app
             UC_vehicle vehicle = new UC_vehicle();
             userControl(vehicle);
         }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            UC_customer customer = new UC_customer();
-            userControl(customer);
-        }
-
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-            UC_orders orders = new UC_orders();
-            userControl(orders);
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            UC_payments payments = new UC_payments();
-            userControl(payments);
-        }
     }
 }
 

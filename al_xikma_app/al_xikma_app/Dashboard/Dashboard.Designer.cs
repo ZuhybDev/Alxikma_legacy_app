@@ -39,13 +39,13 @@ namespace al_xikma_app
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.topPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.topPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -199,7 +199,6 @@ namespace al_xikma_app
             this.guna2Button4.Size = new System.Drawing.Size(170, 45);
             this.guna2Button4.TabIndex = 14;
             this.guna2Button4.Text = "Payment";
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -226,7 +225,6 @@ namespace al_xikma_app
             this.guna2Button3.Size = new System.Drawing.Size(170, 45);
             this.guna2Button3.TabIndex = 13;
             this.guna2Button3.Text = "Order";
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button2
             // 
@@ -253,7 +251,6 @@ namespace al_xikma_app
             this.guna2Button2.Size = new System.Drawing.Size(170, 45);
             this.guna2Button2.TabIndex = 12;
             this.guna2Button2.Text = "Customer";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // btnHome
             // 
@@ -292,17 +289,6 @@ namespace al_xikma_app
             this.guna2Separator1.Size = new System.Drawing.Size(200, 10);
             this.guna2Separator1.TabIndex = 1;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::al_xikma_app.Properties.Resources.logo;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 2);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(155, 164);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 11;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // topPanel
             // 
             this.topPanel.BackColor = System.Drawing.SystemColors.Desktop;
@@ -333,6 +319,17 @@ namespace al_xikma_app
             this.mainPanel.Size = new System.Drawing.Size(904, 654);
             this.mainPanel.TabIndex = 2;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::al_xikma_app.Properties.Resources.logo;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 2);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(155, 164);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 11;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -350,9 +347,9 @@ namespace al_xikma_app
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.topPanel.ResumeLayout(false);
             this.topPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
