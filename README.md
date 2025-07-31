@@ -1,4 +1,4 @@
-# Al_xikma_winforms_app
+# Al_xikma Management system
 
 A modern Windows Forms application built in C#. This project serves as a robust, user-friendly platform designed to provide efficient solutions for desktop environments. 
 
