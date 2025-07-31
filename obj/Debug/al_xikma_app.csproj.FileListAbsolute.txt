@@ -19,10 +19,3 @@ C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_
 C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_vehiclePrice.resources
 C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_main_vehicles.resources
 C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_supplier.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_payments.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_customer.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_orders.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_rentalOrder.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_purchaseOrder.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_rentalPayment.resources
-C:\Users\zuhybdev\Documents\al_xikma_app\al_xikma_app\obj\Debug\al_xikma_app.UC_purchasePayemnt.resources
