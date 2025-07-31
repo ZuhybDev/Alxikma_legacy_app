@@ -86,6 +86,7 @@ namespace al_xikma_app
             this.vehicleMainPanel.Name = "vehicleMainPanel";
             this.vehicleMainPanel.Size = new System.Drawing.Size(1016, 605);
             this.vehicleMainPanel.TabIndex = 3;
+            this.vehicleMainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.vehicleMainPanel_Paint);
             // 
             // btnVehicle
             // 
