@@ -16,5 +16,10 @@ namespace al_xikma_app
         {
             InitializeComponent();
         }
+
+        private void topPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
