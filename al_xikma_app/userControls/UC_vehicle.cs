@@ -53,5 +53,10 @@ namespace al_xikma_app
             UC_supplier supplier = new UC_supplier();
             userControl(supplier);
         }
+
+        private void vehicleMainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
