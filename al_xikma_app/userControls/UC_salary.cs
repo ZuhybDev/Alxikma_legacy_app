@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace al_xikma_app
 {
-    public partial class UC_vehiclePrice : UserControl
+    public partial class UC_salary : UserControl
     {
-        public UC_vehiclePrice()
+        public UC_salary()
         {
             InitializeComponent();
         }

@@ -16,29 +16,30 @@ namespace al_xikma_app
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard());
-            //splash screen
-            //using (var splash = new Splash_screen())
-            //{
-            //    splash.Show();
-            //    Application.DoEvents();
-            //    System.Threading.Thread.Sleep(2000);
-            //    splash.Close();
-            //}
+          
+           
+            using (var splash = new Splash_screen())
+            {
+                splash.Show();
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(2000);
+                splash.Close();
+            }
 
 
-            //using (var login = new loginForm())
-            //{
-            //    if(login.ShowDialog() == DialogResult.OK)
-            //    {
-            //        string role = login.UserRole;
-            //        Application.Run(new Dashboard(role));
+            using (var login = new loginForm())
+            {
+                if (login.ShowDialog() == DialogResult.OK)
+                {
+                    string role = login.UserRole;
+                    Application.Run(new Dashboard(role));
 
-            //    }else
-            //    {
-            //        Application.Exit();
-            //    }
-            //}
+                }
+                else
+                {
+                    Application.Exit();
+                }
+            }
         }
     }
 }

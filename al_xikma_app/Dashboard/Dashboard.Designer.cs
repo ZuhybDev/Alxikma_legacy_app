@@ -43,6 +43,7 @@ namespace al_xikma_app
             this.topPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.topPanel.SuspendLayout();
@@ -51,6 +52,7 @@ namespace al_xikma_app
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.guna2HtmlLabel2);
             this.panel1.Controls.Add(this.btnVehicle);
             this.panel1.Controls.Add(this.btnlogout);
             this.panel1.Controls.Add(this.btnEmployee);
@@ -88,7 +90,7 @@ namespace al_xikma_app
             this.btnVehicle.HoverState.FillColor = System.Drawing.Color.Silver;
             this.btnVehicle.Image = global::al_xikma_app.Properties.Resources.sports_car__1_;
             this.btnVehicle.ImageOffset = new System.Drawing.Point(-5, 0);
-            this.btnVehicle.Location = new System.Drawing.Point(3, 215);
+            this.btnVehicle.Location = new System.Drawing.Point(3, 240);
             this.btnVehicle.Name = "btnVehicle";
             this.btnVehicle.Size = new System.Drawing.Size(171, 45);
             this.btnVehicle.TabIndex = 19;
@@ -115,12 +117,13 @@ namespace al_xikma_app
             this.btnlogout.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnlogout.HoverState.ForeColor = System.Drawing.Color.White;
             this.btnlogout.Image = global::al_xikma_app.Properties.Resources.logout__1_;
-            this.btnlogout.ImageOffset = new System.Drawing.Point(-5, 0);
+            this.btnlogout.ImageOffset = new System.Drawing.Point(-5, 1);
             this.btnlogout.Location = new System.Drawing.Point(1, 646);
             this.btnlogout.Name = "btnlogout";
             this.btnlogout.Size = new System.Drawing.Size(173, 45);
             this.btnlogout.TabIndex = 18;
             this.btnlogout.Text = "Log out";
+            this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
             // 
             // btnEmployee
             // 
@@ -142,11 +145,12 @@ namespace al_xikma_app
             this.btnEmployee.HoverState.FillColor = System.Drawing.Color.Gainsboro;
             this.btnEmployee.Image = global::al_xikma_app.Properties.Resources.employee;
             this.btnEmployee.ImageOffset = new System.Drawing.Point(-3, 0);
-            this.btnEmployee.Location = new System.Drawing.Point(3, 477);
+            this.btnEmployee.Location = new System.Drawing.Point(3, 502);
             this.btnEmployee.Name = "btnEmployee";
             this.btnEmployee.Size = new System.Drawing.Size(170, 45);
             this.btnEmployee.TabIndex = 16;
             this.btnEmployee.Text = "Employee";
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
             // btnReport
             // 
@@ -168,11 +172,12 @@ namespace al_xikma_app
             this.btnReport.HoverState.FillColor = System.Drawing.Color.Gainsboro;
             this.btnReport.Image = global::al_xikma_app.Properties.Resources.report__1_;
             this.btnReport.ImageOffset = new System.Drawing.Point(-4, 0);
-            this.btnReport.Location = new System.Drawing.Point(3, 424);
+            this.btnReport.Location = new System.Drawing.Point(3, 449);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(170, 45);
             this.btnReport.TabIndex = 15;
             this.btnReport.Text = "Reports";
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // guna2Button4
             // 
@@ -194,7 +199,7 @@ namespace al_xikma_app
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Gainsboro;
             this.guna2Button4.Image = global::al_xikma_app.Properties.Resources.cash_payment;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(-3, 0);
-            this.guna2Button4.Location = new System.Drawing.Point(3, 372);
+            this.guna2Button4.Location = new System.Drawing.Point(3, 397);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(170, 45);
             this.guna2Button4.TabIndex = 14;
@@ -221,7 +226,7 @@ namespace al_xikma_app
             this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Gainsboro;
             this.guna2Button3.Image = global::al_xikma_app.Properties.Resources.checkout;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(-7, 0);
-            this.guna2Button3.Location = new System.Drawing.Point(3, 319);
+            this.guna2Button3.Location = new System.Drawing.Point(3, 344);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(170, 45);
             this.guna2Button3.TabIndex = 13;
@@ -248,7 +253,7 @@ namespace al_xikma_app
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Gainsboro;
             this.guna2Button2.Image = global::al_xikma_app.Properties.Resources.customer;
             this.guna2Button2.ImageOffset = new System.Drawing.Point(-1, 0);
-            this.guna2Button2.Location = new System.Drawing.Point(3, 267);
+            this.guna2Button2.Location = new System.Drawing.Point(3, 292);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(170, 45);
             this.guna2Button2.TabIndex = 12;
@@ -276,7 +281,7 @@ namespace al_xikma_app
             this.btnHome.HoverState.FillColor = System.Drawing.Color.Silver;
             this.btnHome.Image = global::al_xikma_app.Properties.Resources.home__2_;
             this.btnHome.ImageOffset = new System.Drawing.Point(-5, 0);
-            this.btnHome.Location = new System.Drawing.Point(3, 164);
+            this.btnHome.Location = new System.Drawing.Point(3, 189);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(171, 45);
             this.btnHome.TabIndex = 1;
@@ -332,6 +337,17 @@ namespace al_xikma_app
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(904, 654);
             this.mainPanel.TabIndex = 2;
+            this.mainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainPanel_Paint);
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(64, 156);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(45, 23);
+            this.guna2HtmlLabel2.TabIndex = 0;
+            this.guna2HtmlLabel2.Text = "Menu";
             // 
             // Dashboard
             // 
@@ -350,6 +366,7 @@ namespace al_xikma_app
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.topPanel.ResumeLayout(false);
             this.topPanel.PerformLayout();
@@ -373,5 +390,6 @@ namespace al_xikma_app
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel mainPanel;
         private Guna.UI2.WinForms.Guna2Button btnVehicle;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }

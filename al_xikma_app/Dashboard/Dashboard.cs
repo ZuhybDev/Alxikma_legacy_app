@@ -15,12 +15,12 @@ namespace al_xikma_app
 
         private string _userRole;
         //string role
-        public Dashboard()
+        public Dashboard(string role)
         {
             InitializeComponent();
             UC_home home = new UC_home();
             userControl(home);
-            //_userRole = role;
+            _userRole = role;
 
         }
 
@@ -56,7 +56,7 @@ namespace al_xikma_app
                 // show all controls
             } else
             {
-              
+                btnEmployee.Visible = false;
                 
 
             }
@@ -88,14 +88,47 @@ namespace al_xikma_app
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            UC_orders orders = new UC_orders();
+           UC_purchaseOrder orders = new UC_purchaseOrder();
             userControl(orders);
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            UC_payments payments = new UC_payments();
+            UC_purchasePayemnt payments = new UC_purchasePayemnt();
             userControl(payments);
+        }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            UC_report report = new UC_report();
+            userControl(report);
+        }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            UC_employee_template employeeTemplate = new UC_employee_template();
+            userControl(employeeTemplate);
+        }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnlogout_Click(object sender, EventArgs e)
+        {
+           
+                DialogResult result = MessageBox.Show("Do you want to exit the app?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    Application.Exit();
+             
+            } else
+            {
+                
+            }
+          
+               
         }
     }
 }

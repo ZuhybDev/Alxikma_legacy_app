@@ -40,7 +40,6 @@ namespace al_xikma_app
             this.Update = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -50,7 +49,6 @@ namespace al_xikma_app
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnVehicleId = new Guna.UI2.WinForms.Guna2TextBox();
             this.topPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
@@ -234,16 +232,6 @@ namespace al_xikma_app
             this.guna2Button1.TabIndex = 27;
             this.guna2Button1.Text = "Save";
             // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(661, 89);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(26, 19);
-            this.guna2HtmlLabel9.TabIndex = 15;
-            this.guna2HtmlLabel9.Text = "City";
-            // 
             // guna2HtmlLabel8
             // 
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
@@ -354,14 +342,12 @@ namespace al_xikma_app
             // topPanel
             // 
             this.topPanel.BackColor = System.Drawing.Color.White;
-            this.topPanel.Controls.Add(this.guna2TextBox5);
             this.topPanel.Controls.Add(this.guna2TextBox4);
             this.topPanel.Controls.Add(this.guna2TextBox3);
             this.topPanel.Controls.Add(this.guna2Button2);
             this.topPanel.Controls.Add(this.guna2TextBox1);
             this.topPanel.Controls.Add(this.Update);
             this.topPanel.Controls.Add(this.guna2Button1);
-            this.topPanel.Controls.Add(this.guna2HtmlLabel9);
             this.topPanel.Controls.Add(this.guna2HtmlLabel8);
             this.topPanel.Controls.Add(this.guna2HtmlLabel6);
             this.topPanel.Controls.Add(this.guna2HtmlLabel5);
@@ -374,29 +360,6 @@ namespace al_xikma_app
             this.topPanel.Name = "topPanel";
             this.topPanel.Size = new System.Drawing.Size(988, 234);
             this.topPanel.TabIndex = 21;
-            // 
-            // guna2TextBox5
-            // 
-            this.guna2TextBox5.Animated = true;
-            this.guna2TextBox5.BorderColor = System.Drawing.Color.Black;
-            this.guna2TextBox5.BorderRadius = 2;
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(661, 114);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox5.PlaceholderText = "City";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(300, 27);
-            this.guna2TextBox5.TabIndex = 32;
             // 
             // guna2TextBox4
             // 
@@ -474,7 +437,6 @@ namespace al_xikma_app
         private Guna.UI2.WinForms.Guna2Button Update;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
@@ -485,7 +447,6 @@ namespace al_xikma_app
         private Guna.UI2.WinForms.Guna2TextBox btnVehicleId;
         private Guna.UI2.WinForms.Guna2Panel topPanel;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
     }
 }

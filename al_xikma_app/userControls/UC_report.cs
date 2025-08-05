@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace al_xikma_app
 {
-    public partial class UC_rentalOrder : UserControl
+    public partial class UC_report : UserControl
     {
-        public UC_rentalOrder()
+        public UC_report()
         {
             InitializeComponent();
-        }
-
-        private void UC_rentalOrder_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

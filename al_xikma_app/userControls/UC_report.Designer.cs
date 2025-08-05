@@ -1,7 +1,7 @@
 ﻿
 namespace al_xikma_app
 {
-    partial class UC_home
+    partial class UC_report
     {
         /// <summary> 
         /// Required designer variable.
@@ -36,23 +36,20 @@ namespace al_xikma_app
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(282, 251);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(286, 252);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(503, 47);
-            this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "Home page is under maintainance";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(514, 47);
+            this.guna2HtmlLabel1.TabIndex = 0;
+            this.guna2HtmlLabel1.Text = "Report page is under maintainance";
             // 
-            // UC_home
+            // UC_report
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Controls.Add(this.guna2HtmlLabel1);
-            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "UC_home";
+            this.Location = new System.Drawing.Point(282, 251);
+            this.Name = "UC_report";
             this.Size = new System.Drawing.Size(1016, 586);
-            this.Load += new System.EventHandler(this.UC_home_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

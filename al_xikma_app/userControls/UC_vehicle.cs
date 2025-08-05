@@ -35,12 +35,7 @@ namespace al_xikma_app
             userControl(mainVehicles);
         }
 
-        private void btnVehiclePrice_Click(object sender, EventArgs e)
-        {
-            UC_vehiclePrice price = new UC_vehiclePrice();
-            userControl(price);
-
-        }
+       
 
         private void UC_vehicle_Load(object sender, EventArgs e)
         {

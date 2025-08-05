@@ -78,7 +78,7 @@ namespace al_xikma_app
             // 
             // splashTimer
             // 
-            this.splashTimer.Interval = 6;
+            this.splashTimer.Interval = 5;
             this.splashTimer.Tick += new System.EventHandler(this.splashTimer_Tick);
             // 
             // guna2PictureBox1

@@ -78,29 +78,35 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dashboard\UserRole.cs" />
-    <Compile Include="userControls\UC_rentalOrder.cs">
+    <Compile Include="userControls\UC_salary.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="userControls\UC_rentalOrder.Designer.cs">
-      <DependentUpon>UC_rentalOrder.cs</DependentUpon>
+    <Compile Include="userControls\UC_salary.Designer.cs">
+      <DependentUpon>UC_salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControls\UC_employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControls\UC_employee.Designer.cs">
+      <DependentUpon>UC_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControls\UC_employee_template.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControls\UC_employee_template.Designer.cs">
+      <DependentUpon>UC_employee_template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userControls\UC_report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControls\UC_report.Designer.cs">
+      <DependentUpon>UC_report.cs</DependentUpon>
     </Compile>
     <Compile Include="userControls\UC_purchaseOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="userControls\UC_purchaseOrder.Designer.cs">
       <DependentUpon>UC_purchaseOrder.cs</DependentUpon>
-    </Compile>
-    <Compile Include="userControls\UC_rentalPayment.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="userControls\UC_rentalPayment.Designer.cs">
-      <DependentUpon>UC_rentalPayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="userControls\UC_payments.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="userControls\UC_payments.Designer.cs">
-      <DependentUpon>UC_payments.cs</DependentUpon>
     </Compile>
     <Compile Include="userControls\UC_purchasePayemnt.cs">
       <SubType>UserControl</SubType>
@@ -114,12 +120,6 @@
     <Compile Include="userControls\UC_customer.Designer.cs">
       <DependentUpon>UC_customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="userControls\UC_orders.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="userControls\UC_orders.Designer.cs">
-      <DependentUpon>UC_orders.cs</DependentUpon>
-    </Compile>
     <Compile Include="userControls\UC_supplier.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -131,12 +131,6 @@
     </Compile>
     <Compile Include="userControls\UC_main_vehicles.Designer.cs">
       <DependentUpon>UC_main_vehicles.cs</DependentUpon>
-    </Compile>
-    <Compile Include="userControls\UC_vehiclePrice.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="userControls\UC_vehiclePrice.Designer.cs">
-      <DependentUpon>UC_vehiclePrice.cs</DependentUpon>
     </Compile>
     <Compile Include="userControls\UC_vehicle.cs">
       <SubType>UserControl</SubType>
@@ -169,17 +163,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="userControls\UC_rentalOrder.resx">
-      <DependentUpon>UC_rentalOrder.cs</DependentUpon>
+    <EmbeddedResource Include="userControls\UC_salary.resx">
+      <DependentUpon>UC_salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControls\UC_employee.resx">
+      <DependentUpon>UC_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControls\UC_employee_template.resx">
+      <DependentUpon>UC_employee_template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControls\UC_report.resx">
+      <DependentUpon>UC_report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControls\UC_purchaseOrder.resx">
       <DependentUpon>UC_purchaseOrder.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="userControls\UC_rentalPayment.resx">
-      <DependentUpon>UC_rentalPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="userControls\UC_payments.resx">
-      <DependentUpon>UC_payments.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControls\UC_purchasePayemnt.resx">
       <DependentUpon>UC_purchasePayemnt.cs</DependentUpon>
@@ -187,17 +184,11 @@
     <EmbeddedResource Include="userControls\UC_customer.resx">
       <DependentUpon>UC_customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="userControls\UC_orders.resx">
-      <DependentUpon>UC_orders.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="userControls\UC_main_vehicles.resx">
       <DependentUpon>UC_main_vehicles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControls\UC_supplier.resx">
       <DependentUpon>UC_supplier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="userControls\UC_vehiclePrice.resx">
-      <DependentUpon>UC_vehiclePrice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userControls\UC_vehicle.resx">
       <DependentUpon>UC_vehicle.cs</DependentUpon>
